@@ -35,7 +35,7 @@ public class CityService {
         City city = new City();
         city.setName(dto.getName());
 
-        City result = repository.save(city);
+        city = repository.save(city);
 
         return new CityDTO(city);
     }

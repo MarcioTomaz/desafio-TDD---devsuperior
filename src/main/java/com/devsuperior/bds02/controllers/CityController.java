@@ -18,7 +18,6 @@ public class CityController {
     @Autowired
     private CityService service;
 
-
     @GetMapping
     public ResponseEntity<List<CityDTO>>findALl(){
 
